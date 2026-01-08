@@ -60,3 +60,83 @@ header nav ul a:hover {
 header nav .btn {
     padding: 12.5px 16px;
 }
+
+
+.circular-design-outer {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #30b86936;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circular-design-middle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #30b8696e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circular-design-center {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #30B868;
+}
+
+.banner {
+    background: url("../assets/hero-bg.png");
+    background-size:cover;
+    text-align: center;
+}
+
+.banner .container {
+    padding-top: 115.5px;
+    padding-bottom: 179.5px;
+}
+
+.banner .container .btn-ea {
+    display: flex;
+    gap: 6px;
+    margin: 0 auto;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 1000px;
+    color: #30B868;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.banner .container h1 {
+    padding: 16px 0px;
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+}
+.banner .container h1 .green-text {
+    color: #30B868;
+}
+
+.banner .container .banner-p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.banner .container .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+
+
