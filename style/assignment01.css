@@ -90,7 +90,7 @@ header nav .btn {
 }
 
 .banner {
-    background: url("../assets/hero-bg.png");
+    background: url("../assets/hero-bg.png"), #001931;
     background-size:cover;
     text-align: center;
 }
