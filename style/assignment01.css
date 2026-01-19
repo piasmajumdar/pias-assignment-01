@@ -10,13 +10,11 @@
 }
 
 /* shared style  */
-
 .container {
     width: 85%;
     max-width: 1360px;
     margin: 0 auto;
 }
-
 .btn {
     background-color: #30B868;
     border: none;
@@ -27,12 +25,10 @@
     padding: 16px 16px;
     cursor: pointer;
 }
-
 .btn:hover {
     background-color: #ff5f5a;
     font-size: 1.07em;
 }
-
 .icon-bg {
     height: 60px;
     width: 60px;
@@ -49,20 +45,17 @@
 }
 
 /* main */
-
 header nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px 0;
 }
-
 header nav ul {
     display: flex;
     gap: 32px;
     list-style: none;
 }
-
 header nav ul a {
     text-decoration: none;
     font-size: 16px;
@@ -72,18 +65,14 @@ header nav ul a {
     border: none;
     border-radius: 5px;
 }
-
 header nav ul a:hover {
     background-color: #9bb5e658;
     font-weight: bolder;
     box-shadow: 0 0 10px #30b869;
 }
-
 header nav .btn {
     padding: 12.5px 16px;
 }
-
-
 .circular-design-outer {
   width: 16px;
   height: 16px;
@@ -93,7 +82,6 @@ header nav .btn {
   align-items: center;
   justify-content: center;
 }
-
 .circular-design-middle {
   width: 12px;
   height: 12px;
@@ -103,25 +91,21 @@ header nav .btn {
   align-items: center;
   justify-content: center;
 }
-
 .circular-design-center {
   width: 6px;
   height: 6px;
   border-radius: 50%;
   background-color: #30B868;
 }
-
 .banner {
     background: url("../assets/hero-bg.png"), #001931;
     background-size:cover;
     text-align: center;
 }
-
 .banner .container {
     padding-top: 115.5px;
     padding-bottom: 179.5px;
 }
-
 .banner .container .btn-ea {
     display: flex;
     gap: 6px;
@@ -134,12 +118,10 @@ header nav .btn {
     font-size: 16px;
     font-weight: 500;
 }
-
 .banner .container .btn-ea:hover {
     font-size: larger;
     box-shadow: 0 0 200px #30b869;
 }
-
 .banner .container .see-how-it-works {
     background-color: transparent;
     border: 1px solid white;
@@ -150,12 +132,10 @@ header nav .btn {
     padding: 16px 16px;
     cursor: pointer;
 }
-
 .banner .container .see-how-it-works:hover {
     background-color: #ff5f5a;
     font-size: 1.07em;
 }
-
 .banner .container h1 {
     padding: 16px 0px;
     color: #FFFFFF;
@@ -166,7 +146,6 @@ header nav .btn {
 .banner .container h1 .green-text {
     color: #30B868;
 }
-
 .banner .container .banner-p {
     color: #FFFFFF;
     font-size: 18px;
@@ -174,24 +153,20 @@ header nav .btn {
     line-height: 24px;
     margin-bottom: 32px;
 }
-
 .banner .container .button-container {
     display: flex;
     justify-content: center;
     gap: 16px;
 }
-
 .notes {
     text-align: center;
 }
-
 .notes .container .part1-hp h2 {
     font-size: 48px;
     font-weight: bold;
     color: #001931;
     margin-bottom: 16px;
 }
-
 .notes .container .part1-hp p {
     font-size: 16px;
     line-height: 20px;
@@ -202,14 +177,12 @@ header nav .btn {
     display: flex;
     gap: 24px;
 }
-
 .notes .container .part2-card-container .card {
     max-width: 322px;
     padding: 69.5px 24px;
     box-shadow: 0 0 8px 0 #00000026;
     border-radius: 8px;
 }
-
 .notes .container .part2-card-container .card h4 {
     font-weight: 600;
     font-size: 24px;
@@ -217,27 +190,22 @@ header nav .btn {
     padding-top: 16px;
     padding-bottom: 16px;
 }
-
 .notes .container .part2-card-container .card p {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
 }
-
-
 .second-brain .container {
     padding: 120px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .second-brain .container img {
     height: 600px;
     width: 600px;
     border-radius: 12px;
 }
-
 .second-brain .container .hpl h5 {
     font-size: 16px;
     font-weight: 500;
@@ -245,94 +213,78 @@ header nav .btn {
     color: #30B868;
     padding-bottom: 16px;
 }
-
 .second-brain .container .hpl h2 {
     font-weight: bold;
     font-size: 48px;
     color: #001931;
     padding-bottom: 16px;
 }
-
 .second-brain .container .hpl p {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
     margin-bottom: 40px;
 }
-
 .second-brain .container .hpl ul {
     list-style: none;
     font-size: 16px;
     font-weight: 500;
     color: #001931;
 }
-
 .second-brain .container .hpl ul li {
     padding-bottom: 16px;
     display: flex;
 }
-
 .second-brain .container .hpl ul li img {
     height: 20px;
     width: 20px;
     margin-right: 6px;
 }
-
 .early-access .container {
     text-align: center;
     margin-top: 2px;
     margin-bottom: 120px;
     padding: 80px 40px;
     border-radius: 12px;
-    background-color: #F7F6F2;
-    
+    background-color: #F7F6F2;   
 }
-
 .early-access .container h2 {
     font-size: 40px;
     font-weight: bold;
     color: #001931;
     padding-bottom: 16px;
 }
-
 .early-access .container p {
     color: #627382;
     font-size: 16px;
     line-height: 24px;
     padding-bottom: 24px;
 }
-
 .early-access .container .btn {
     box-shadow: 0 10px 20px 0 #00000021;
     margin-bottom: 16px;
 }
-
 .early-access .container .msg-bellow-btn {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
 }
-
-
 footer {
     background-color: #001931
 }
 footer .container {
     padding: 120px 0 30px;
 }
-
 footer .container .part-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 80px;
 }
-
 footer .container .part-1 .logo-footer {
     max-width: 139px;
     max-height: 60px;
 }
-
 footer .container .part-1 .social{
     width: 16%;
 }
@@ -342,11 +294,9 @@ footer .container .part-1 .social p {
     font-weight: 500;
     margin-bottom: 16px;
 }
-
 footer .container .part-1 .social .social-logos a{
     color: #000000;
 }
-
 footer .container .part-1 .social .social-logos {
     display: flex;
     gap: 16px;
@@ -359,22 +309,17 @@ footer .container .part-1 .social .social-logos {
     text-align: center;
     cursor: pointer;
 }
-
 .s-logo:hover {
     background-color: #0875db;
 }
-
 .s-logo img{
     height: 10.65px;
     width: 11.15px;
 }
-
-
 footer .container hr{
     color: #e5e7eb2c;
     border-bottom: none;
 }
-
 footer .part-2-copyright {
     text-align: center;
     color: #FAFAFA;
